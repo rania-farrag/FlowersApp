@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shop"
+    tools:context="com.example.wallymisr.flowersapp.HomeActivity">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="460dp"
+        android:id="@+id/homeimg"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+
+    <android.support.v7.widget.ActionMenuView
+        android:id="@+id/bottom_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentBottom="true"
+        android:background="#D3CFCF">
+    </android.support.v7.widget.ActionMenuView>
+
+
+</RelativeLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context="com.example.wallymisr.flowersapp.ChoiceActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        app:civ_border_width="0dp"
+        app:civ_border_color="#000000"
+        android:layout_marginTop="95dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/mariaag"
+        android:id="@+id/mariaag"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Wedding Flowers"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/mariaag"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/mariaagtxt"/>
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        app:civ_border_width="0dp"
+        app:civ_border_color="#000000"
+        android:layout_marginTop="95dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/mariaag"
+        android:src="@drawable/normal"
+        android:id="@+id/normal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Flowers"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/normal"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/normaltxt"/>
+
+</RelativeLayout>
